@@ -43,7 +43,8 @@ The final stage involves calibrating the model to the bank's specific **Risk App
 * **Modeling**: `SQL`, `XGBoost`, `Random Forest`, `Scikit-learn`
 * **Audit & Interpretation**: `SHAP`, `SciPy (Spearman)`, `Matplotlib`
 
-* ## 🏆 External Validation: Official Benchmark Score
+
+## 🏆 External Validation: Official Benchmark Score
 While local validation ensures model logic, final performance was verified on the unseen private test set of the "Give Me Some Credit" benchmark.
 
 ![Official Private Leaderboard Rank](picture/official_score.png)
