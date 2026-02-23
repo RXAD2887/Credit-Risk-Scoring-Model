@@ -35,6 +35,13 @@ To meet **OSFI/IFRS 9** transparency requirements, I implemented a dual-layer au
 The final stage involves calibrating the model to the bank's specific **Risk Appetite**.
 ![Quantitative Audit](picture/Quantitative_Audit.png)
 > **Audit Insight**: By performing threshold sensitivity analysis, we balance the **Opportunity Cost** (Type I Error) against **Capital Risk** (Type II Error), providing a data-driven decision tool for the Credit Policy Committee.
+> ---
+
+## 🏆 External Validation: Official Benchmark Score
+While local validation ensures model logic, final performance was verified on the unseen private test set of the "Give Me Some Credit" benchmark.
+
+![Official Private Leaderboard Rank](picture/official_score.png)
+> **Performance Note**: Achieved a **Private AUC of 0.867** (top tier ranking), demonstrating the model's generalization capability on out-of-sample data. This high accuracy serves as the foundation upon which the regulatory audit layer is built.
 
 ---
 
